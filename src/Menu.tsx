@@ -99,7 +99,7 @@ export class Menu extends React.Component<MenuProps, State> {
 
   // Start menu animation
   private onMenuLayout = (e: LayoutChangeEvent) => {
-    if (this.state.menuState === States.Animating) {
+    if (this.state.menuState === States.Animating || this.state.menuState === States.Hidden) {
       return;
     }
 
