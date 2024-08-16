@@ -58,6 +58,3 @@ node_modules
 
 /coverage
 /third-party
-
-# Build
-dist
